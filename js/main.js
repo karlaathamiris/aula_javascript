@@ -1,5 +1,52 @@
+function clicou(){
+document.getElementById("agradecimento").innerHTML = "Obrigada por clicar, estamos testando o site";
+//console.log(document.getElementById("agradecimento"));
+    //    alert("Obrigada por clicar")
+}
+
+function redirecionar(){
+    window.open("https://www.youtube.com/watch?v=b2uWplCQOUI");
+    //window.location.href = "https://www.youtube.com/watch?v=b2uWplCQOUI"; Outra forma de redirecionar, porém abre na mesma janela
+}
+
+function trocar(elemento){
+    elemento.innerHTML =  "Obrigada por passar o mouse";
+    //document.getElementById("mousemove").innerHTML = "Obrigada por passar o mouse";
+    // alert("trocar texto");
+}
+
+function voltar(elemento){
+    elemento.innerHTML = "Passe o mouse aqui";
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+}
+
+function load(){
+    alert("Página carregada ♥");
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value)
+}
+
+/*Variáveis locais e globais
+function soma (n1, n2){
+    return n1 + n2;}
 
 
+function validarIdade(idade){
+    var validar
+    if (idade >= 18){
+        validar = true;
+    }else{
+        validar = false;
+    }
+    return validar;
+}
+var idade = prompt ("Digite sua idade: ")
+console.log(validarIdade(idade)); 
+
+alert (soma(5, 10));
+*/
 
 /*Data
 var d = new Date();
